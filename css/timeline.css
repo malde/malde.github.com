@@ -1,9 +1,14 @@
 body,article,h1,h2,p {
     margin: 0;
     padding: 0;
-    background-color: #fdf6e3;
     color: #839496;
     font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: #fdf6e3;
+}
+body.night {
+    background-color: #002b36;
 }
 article {
     display: block;
