@@ -14,11 +14,11 @@ html.night {
 body {
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
-    background: #fdf6e3 url(http://dl.dropbox.com/u/397618/profil/img/hamburg.png) no-repeat center bottom;
+    background: #fdf6e3 url(../img/hamburg.png) no-repeat center bottom;
     min-height: 640px;
 }
 body.night {
-    background: #002b36 url(http://dl.dropbox.com/u/397618/profil/img/hamburg_night.png) no-repeat center bottom;
+    background: #002b36 url(../img/hamburg_night.png) no-repeat center bottom;
 }
 article  {
 	display: block;
@@ -81,4 +81,4 @@ a:hover  {
 	background-color: #d33682;
 	color: #fff;
 	border: #d33682 solid 1px;
-}
+}
