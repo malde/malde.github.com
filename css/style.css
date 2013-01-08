@@ -1,84 +1,31 @@
-body,article,h1,h2,p  {
-    margin: 0;
-	padding: 0;
-}
-html {
-    background: #938f90;    
+html, body {
+    background: #111;    
     height: 100%;
     padding: 0;
     margin: 0;
 }
-html.night {
-    background: #000;
-}
 body {
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-    background: #fdf6e3 url(../img/hamburg.png) no-repeat center bottom;
+	text-align: center;   
     min-height: 640px;
 }
-body.night {
-    background: #002b36 url(../img/hamburg_night.png) no-repeat center bottom;
+
+table {
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 440px;
+	height: 440px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -220px 0 0 -220px;
 }
-article  {
-	display: block;
-	margin: auto;
-	padding: 4em 1em;
-}
-h1  {
-	font-weight: bold;
-	font-size: 7.2em;
-}
-h2  {
-	font-weight: normal;
-	font-size: 1.5em;
-	color: #bbb;
-	margin-top: 1em;
-	margin-bottom: .2em;
-}
-#timeline:link,
-#timeline:visited  {
-	color: #859900;
-}
-#timeline:hover  {
-	color: #d33682;
-}
-span  {
-	font-size: .8em;
-	font-weight: normal;
-	color: #aaa;
-}
-p  {
-	font-size: 2em;
-	color: #839496;
-}
-a  {
-	text-decoration: none;
-	font-weight: bold;
-}
-a:link,
-a:hover,
-a:visited  {
-	color: #ccc;
-}
-a:hover  {
-	color: #268bd2;
-}
-#contact  {
-	margin-top: 1em;
-	font-size: 1.6em;
-}
-#email,#twitter  {
-	font-weight: normal;
-	border: #fdf6e3 solid 1px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	padding: 0 4px;
-}
-#email:hover,
-#twitter:hover  {
-	background-color: #d33682;
-	color: #fff;
-	border: #d33682 solid 1px;
+
+td {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 2px;
+
+	background: #666;
 }
