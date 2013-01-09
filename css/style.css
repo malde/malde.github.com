@@ -1,12 +1,12 @@
 html, body {
-    background: #111;    
-    height: 100%;
-    padding: 0;
-    margin: 0;
+	background: -webkit-linear-gradient(top, #456, #000);
+	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 body {
 	text-align: center;   
-    min-height: 640px;
+	min-height: 640px;
 }
 
 table {
@@ -14,11 +14,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	width: 440px;
-	height: 440px;
+	height: 528px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin: -220px 0 0 -220px;
+	margin: -264px 0 0 -220px;
 }
 
 td {
@@ -27,5 +27,19 @@ td {
 	height: 16px;
 	margin: 2px;
 
-	background: #666;
+	background: transparent;
 }
+
+td.c1 { background: rgb(11, 59, 8);  // dark green }
+td.c2 { background: #0F7C0D;  // light green }
+td.c3 { background: rgb(29, 58, 43);  // grey green }
+td.c4 { background: rgb(255, 255, 15);  // yellow }
+td.c5 { background: rgb(252, 133, 40);  // orange }
+td.c6 { background: rgb(30, 16, 0);  // brown }
+td.c7 { background: rgb(184, 145, 109);  // dark beige }
+td.c8 { background: rgb(242, 206, 144);  // light beige }
+td.c9 { background: rgb(0, 0, 120);  // blue }
+td.c10 { background: rgb(74, 0, 1);  // dark red }
+td.c11 { background: rgb(118, 1, 3);  // light red }
+td.c12 { background: rgb(255, 255, 255);  // white }
+td.c13 { background: rgb(0, 0, 0);  // black }
