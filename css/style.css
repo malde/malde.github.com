@@ -1,5 +1,5 @@
 html, body {
-	background: -webkit-linear-gradient(top, #040, #331);
+	background: -webkit-linear-gradient(top, #090, #010);
 	height: 100%;
 	padding: 0;
 	margin: 0;
@@ -50,6 +50,8 @@ td.c11 { background: rgb(118, 1, 3);  // light red }
 td.c12 { background: whiteSmoke;  // white }
 td.c13 { background: #111;  // black }
 
-td.r { background: #F30007; }
+td.r1 { background: #8D0000; }
+td.r2 { background: #BF0000; }
+td.r3 { background: #F30007; }
 td.w { background: whitesmoke; }
 td.b { background: #111; }
