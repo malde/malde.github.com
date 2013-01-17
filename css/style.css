@@ -8,12 +8,9 @@ body {
 	-webkit-transition: background 4s;
 	-moz-transition: background 4s;
 	-o-transition: background 4s;
-	background: #fdf6e3;
+	background: #8B00FF;
 	text-align: center;   
-	min-height: 640px;
-}
-body.night {
-	background: #002b36;
+	min-height: 340px;
 }
 
 table {
