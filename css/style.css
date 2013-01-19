@@ -21,9 +21,6 @@ table {
 	left: 50%;
 	top: 50%;
 }
-table.link {
-	margin: -230px 0 0 -200px;
-}
 table.mushroom {
 	margin: -160px 0 0 -160px;
 }
@@ -33,20 +30,6 @@ td {
 	height: 18px;
 	background: transparent;
 }
-
-td.c1 { background: rgb(11, 59, 8);  // dark green }
-td.c2 { background: #0F7C0D;  // light green }
-td.c3 { background: rgb(29, 58, 43);  // grey green }
-td.c4 { background: rgb(255, 255, 15);  // yellow }
-td.c5 { background: rgb(252, 133, 40);  // orange }
-td.c6 { background: rgb(30, 16, 0);  // brown }
-td.c7 { background: rgb(184, 145, 109);  // dark beige }
-td.c8 { background: rgb(242, 206, 144);  // light beige }
-td.c9 { background: rgb(0, 0, 120);  // blue }
-td.c10 { background: rgb(74, 0, 1);  // dark red }
-td.c11 { background: rgb(118, 1, 3);  // light red }
-td.c12 { background: whiteSmoke;  // white }
-td.c13 { background: #111;  // black }
 
 td.r1 { background: #8D0000; }
 td.r2 { background: #BF0000; }
