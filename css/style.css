@@ -7,10 +7,41 @@ body {
 	transition: background 4s;
 	-webkit-transition: background 4s;
 	-moz-transition: background 4s;
-	-o-transition: background 4s;
 	background: #5CFD3A;
 	text-align: center;   
 	min-height: 340px;
+	font-family: 'Source Code Pro', monospace, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 4px;
+	color: #111;
+	transition-duration: 0.25s;
+	transition-property: transform;
+	transform: scale(1) rotate(0);
+	-webkit-transition-duration: 0.25s;
+	-webkit-transition-property: transform;
+	-webkit-transform: scale(1) rotate(0);
+	-moz-transition-duration: 0.25s;
+	-moz-transition-property: transform;
+	-moz-transform: scale(1) rotate(0);
+}
+a:hover {
+	background: #111;
+	color: #E00;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	transform: scale(1.05) rotate(-3deg);
+	-webkit-transform: scale(1.05) rotate(-3deg);
+	-moz-transform: scale(1.05) rotate(-3deg);
+}
+a:nth-child(2n):hover {
+	transform: scale(1.05) rotate(3deg);
+	-webkit-transform: scale(1.05) rotate(3deg);
+	-moz-transform: scale(1.05) rotate(3deg);
 }
 
 table {
@@ -24,6 +55,9 @@ table {
 table.mushroom {
 	margin: -160px 0 0 -160px;
 }
+table.hearts {
+	margin: -70px 0 0 -310px;
+}
 
 td {
 	width: 18px;
@@ -31,8 +65,16 @@ td {
 	background: transparent;
 }
 
+td.r { background: #E00; }
 td.r1 { background: #8D0000; }
 td.r2 { background: #BF0000; }
 td.r3 { background: #F30007; }
 td.w { background: whitesmoke; }
 td.b { background: #111; }
+
+#footer {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+}
