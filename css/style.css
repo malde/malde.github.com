@@ -18,22 +18,18 @@ a {
 	display: inline-block;
 	padding: 4px;
 	color: #111;
-	transition-duration: 0.25s;
-	transition-property: transform;
-	transform: scale(1) rotate(0);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	transition-property: background;
 	-webkit-transition-duration: 0.25s;
-	-webkit-transition-property: transform;
-	-webkit-transform: scale(1) rotate(0);
+	-webkit-transition-property: background;
 	-moz-transition-duration: 0.25s;
-	-moz-transition-property: transform;
-	-moz-transform: scale(1) rotate(0);
+	-moz-transition-property: background;
 }
 a:hover {
 	background: #111;
 	color: #E00;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
 	transform: scale(1.05) rotate(-3deg);
 	-webkit-transform: scale(1.05) rotate(-3deg);
 	-moz-transform: scale(1.05) rotate(-3deg);
