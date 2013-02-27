@@ -8,7 +8,7 @@ var spectrum = ["#80F31F", "#A5DE0B", "#C7C101", "#E39E03", "#F6780F", "#FE5326"
 var index = 0;
 
 var rainbow = function() {
-	$('body').css('background', spectrum[index]);
+	$('body').css('background-color', spectrum[index]);
     index = ++index % spectrum.length;
 
 	setTimeout(rainbow, 2000);
