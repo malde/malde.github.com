@@ -69,6 +69,30 @@ td.r3 { background: #F30007; }
 td.w { background: whitesmoke; }
 td.b { background: #111; }
 
+hr {
+	position: absolute;
+	bottom: 15%;
+	left: 20%;
+	width: 60%;
+	height: 2px;
+	border: 0;
+	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #666));
+	background-image: -webkit-linear-gradient(left, transparent, #666, transparent);
+	background-image: -moz-linear-gradient(left, transparent, #666, transparent);
+	background-image: -ms-linear-gradient(left, transparent, #666, transparent);
+	background-image: -o-linear-gradient(left, transparent, #666, transparent);
+}
+hr::after {
+	content: '';
+	display: block;
+	height: 1px;
+	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #222));
+	background-image: -webkit-linear-gradient(left, transparent, #222, transparent);
+	background-image: -moz-linear-gradient(left, transparent, #222, transparent);
+	background-image: -ms-linear-gradient(left, transparent, #222, transparent);
+	background-image: -o-linear-gradient(left, transparent, #222, transparent);
+}
+
 #footer {
 	text-align: center;
 	width: 100%;
