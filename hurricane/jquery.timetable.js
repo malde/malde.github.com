@@ -78,10 +78,10 @@
             _selectedArtists = _loadFromStore();
             var src = plugin.options.file;
             $.getJSON(src, function (json) {
-                var $headline = $('<h1/>').append(json.name);
-                var $selections = plugin.createSelection(plugin.element, plugin.options, json);
+                var $headline = $('<h1/>').append(json.name);                
                 var $festival = plugin.createFestival(plugin.element, plugin.options, json);
-
+				var $selections = plugin.createSelection(plugin.element, plugin.options, json);
+				
                 $(plugin.element).append($headline).append($selections).append($festival);
             });
         },

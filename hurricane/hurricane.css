@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body {	
+	margin-top: 20px;	
+}
+
 label {
     margin: 3px;
     width: 216px;
@@ -104,4 +108,7 @@ div::-moz-selection {
     .selections {
         display: none;
     }
+	body a {
+		display: none;
+	}
 }
