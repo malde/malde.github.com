@@ -67,9 +67,7 @@
                         var $input = $('<input/>').attr('type', 'checkbox').attr('value', artist.id);
                         $input.change(function (e) {
                             var val = $(this).val();
-                            console.log(val);
                             $('#' + val).toggleClass('selected');
-                            console.log($(val));
                         });
 
                         var $label = $('<label/>').append($input).append(artist.name);
