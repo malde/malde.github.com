@@ -21,8 +21,6 @@ input[type="checkbox"] {
     margin: 15px 0;
     padding: 5px 0 0 0;
     background-position: 1px 0px;
-    /*background-size: 90px;*/
-    /*background-image: repeating-linear-gradient(-90deg, lightgrey, lightgrey 1px, transparent 1px, transparent 90px);*/
 }
 
 .day legend {
@@ -90,11 +88,17 @@ input[type="checkbox"] {
     word-break: break-word;
 }
 
+div::selection {
+    background: transparent;
+}
+div::-moz-selection {
+    background: transparent;
+}
+
 .artist.selected {
     background: lightgreen;
     color: black;
 }
-
 
 @media print {
     .selections {
