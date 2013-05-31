@@ -479,11 +479,11 @@
                             "duration": 40
                         },
                         {
-                            "id": "getwellsoon",
-                            "name": "Get Well Soon",
+                            "id": "macklemore",
+                            "name": "Macklemore & Ryan Lewis",
                             "time": "14:55",
                             "duration": 50
-                        },
+                        },						
                         {
                             "id": "altj",
                             "name": "Alt-J",
@@ -587,8 +587,8 @@
                             "duration": 45
                         },
                         {
-                            "id": "macklemore",
-                            "name": "Macklemore & Ryan Lewis",
+                            "id": "getwellsoon",
+                            "name": "Get Well Soon",
                             "time": "15:45",
                             "duration": 45
                         },
