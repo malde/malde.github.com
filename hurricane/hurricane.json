@@ -353,6 +353,12 @@
                             "duration": 45
                         },
                         {
+                            "id": "bosnianrainbows",
+                            "name": "Bosnian Rainbows",
+                            "time": "16:45",
+                            "duration": 45
+                        },
+                        {
                             "id": "stevenwilson",
                             "name": "Steven Wilson",
                             "time": "18:00",
