@@ -31,14 +31,14 @@ a {
 a:hover {
 	background: #111;
 	color: #E00;
-	transform: scale(1.05) rotate(-3deg);
-	-webkit-transform: scale(1.05) rotate(-3deg);
-	-moz-transform: scale(1.05) rotate(-3deg);
+	transform: scale(1.05) rotate(-1deg);
+	-webkit-transform: scale(1.05) rotate(-1deg);
+	-moz-transform: scale(1.05) rotate(-1deg);
 }
 a:nth-child(2n):hover {
-	transform: scale(1.05) rotate(3deg);
-	-webkit-transform: scale(1.05) rotate(3deg);
-	-moz-transform: scale(1.05) rotate(3deg);
+	transform: scale(1.05) rotate(1deg);
+	-webkit-transform: scale(1.05) rotate(1deg);
+	-moz-transform: scale(1.05) rotate(1deg);
 }
 
 table {
