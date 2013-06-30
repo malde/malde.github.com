@@ -1,0 +1,523 @@
+{
+    "name": "Deichbrand 2013",
+
+    "days": [
+        {
+            "name": "Donnerstag 18.",
+            "date": "18.07.2013",
+            "stages": [ 
+				{
+					"id": "palast",
+					"name": "Palastzelt",
+					"artists": [
+						{
+							"id": "whensky",
+							"name": "When Sky Falls Down",
+							"time": "18:00",
+							"duration": 30
+						},
+						{
+							"id": "manmachetes",
+							"name": "Man The Machetes",
+							"time": "19:00",
+							"duration": 45
+						},
+						{
+							"id": "discoensemble",
+							"name": "Disco Ensemble",
+							"time": "20:15",
+							"duration": 60
+						},
+						{
+							"id": "dad",
+							"name": "D-A-D",
+							"time": "21:50",
+							"duration": 70
+						},		
+						{
+							"id": "letzteinstanz",
+							"name": "Letzte Instanz",
+							"time": "23:30",
+							"duration": 60
+						},
+						{
+							"id": "sorrow",
+							"name": "The Sorrow",
+							"time": "01:00",
+							"duration": 60
+						}
+					]
+				},
+				{
+					"id": "bus",
+					"name": "Tourbus",
+					"artists": [
+						{
+							"id": "rabaukendisko",
+							"name": "Rabaukendisko",
+							"time": "19:30",
+							"duration": 30
+						},
+						{
+							"id": "ahzumjot",
+							"name": "Ahzumjot",
+							"time": "20:30",
+							"duration": 60
+						},
+						{
+							"id": "megamega",
+							"name": "Mega! Mega!",
+							"time": "22:15",
+							"duration": 60
+						},
+						{
+							"id": "drunkenmasters",
+							"name": "Drunken Masters",
+							"time": "23:30",
+							"duration": 90
+						}
+					]
+				}
+			]
+		},
+        {
+            "name": "Freitag 19.",
+            "date": "19.07.2013",
+            "stages": [
+                {
+                    "id": "fire",
+                    "name": "Fire",
+                    "artists": [
+						{
+							"id": "rau",
+							"name": "Rau",
+							"time": "14:00",
+							"duration": 45
+						},
+						{
+							"id": "slime",
+							"name": "Slime",
+							"time": "16:00",
+							"duration": 45
+						},
+						{
+							"id": "broilers",
+							"name": "Broilers",
+							"time": "18:20",
+							"duration": 70
+						},
+						{
+							"id": "casper",
+							"name": "Casper",
+							"time": "21:10",
+							"duration": 70
+						},
+						{
+							"id": "inflames",
+							"name": "In Flames",
+							"time": "00:00",
+							"duration": 75
+						}                    
+					]
+                },
+                {
+                    "id": "water",
+                    "name": "Water",
+                    "artists": [						
+						{
+							"id": "funeral",
+							"name": "Funeral For A Friend",
+							"time": "15:00",
+							"duration": 45
+						},
+						{
+							"id": "bosse",
+							"name": "Bosse",
+							"time": "17:00",
+							"duration": 65
+						},
+						{
+							"id": "jenniferrostock",
+							"name": "Jennifer Rostock",
+							"time": "19:45",
+							"duration": 65
+						},
+						{
+							"id": "antiflag",
+							"name": "Anti-Flag",
+							"time": "22:40",
+							"duration": 60
+						},
+						{
+							"id": "hblocksx",
+							"name": "H-Blockx",
+							"time": "01:15",
+							"duration": 60
+						}					
+                    ]
+                },
+                {
+                    "id": "palast",
+                    "name": "Palastzelt",
+                    "artists": [
+						{
+							"id": "poetry1",
+							"name": "Poetry Slam Vorrunde I",
+							"time": "16:00",
+							"duration": 120
+						},
+						{
+							"id": "youngrival",
+							"name": "Young Rival",
+							"time": "19:45",
+							"duration": 45
+						},
+						{
+							"id": "truemmer",
+							"name": "Trümmer",
+							"time": "21:00",
+							"duration": 40
+						},
+						{
+							"id": "tocotronic",
+							"name": "Tocotronic",
+							"time": "22:30",
+							"duration": 60
+						},
+						{
+							"id": "hitowa",
+							"name": "Hi Towa",
+							"time": "23:30",
+							"duration": 30
+						},
+						{
+							"id": "dopedod",
+							"name": "Dope D.O.D.",
+							"time": "00:00",
+							"duration": 60
+						},
+						{
+							"id": "westbam",
+							"name": "Westbam",
+							"time": "01:00",
+							"duration": 90
+						},
+						{
+							"id": "killparis",
+							"name": "Kill Paris",
+							"time": "02:30",
+							"duration": 80
+						},
+						{
+							"id": "atariteenageriot",
+							"name": "Atari Teenage Riot",
+							"time": "04:00",
+							"duration": 60
+						}
+                    ]
+                },
+                {
+                    "id": "bus",
+                    "name": "Tourbus",
+                    "artists": [
+						{
+							"id": "benzin",
+							"name": "Benzin",
+							"time": "12:00",
+							"duration": 50
+						},
+						{
+							"id": "eljotquent",
+							"name": "Eljot Quent",
+							"time": "13:20",
+							"duration": 40
+						}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Samstag 20.",
+            "date": "20.07.2013",
+            "stages": [
+                {
+                    "id": "fire",
+                    "name": "Fire",
+                    "artists": [
+						{
+							"id": "luislaserpower",
+							"name": "Luis Laserpower",
+							"time": "12:00",
+							"duration": 30
+						},
+						{
+							"id": "lefly",
+							"name": "Le Fly",
+							"time": "13:30",
+							"duration": 45
+						},
+						{
+							"id": "yourdemise",
+							"name": "Your Demise",
+							"time": "15:30",
+							"duration": 45
+						},
+						{
+							"id": "bush",
+							"name": "Bush",
+							"time": "17:30",
+							"duration": 70
+						},
+						{
+							"id": "kraftklub",
+							"name": "Kraftklub",
+							"time": "20:10",
+							"duration": 70
+						},
+						{
+							"id": "sportfreunde",
+							"name": "Sportfreunde Stiller",
+							"time": "23:00",
+							"duration": 90
+						}
+                    ]
+                },
+                {
+                    "id": "water",
+                    "name": "Water",
+                    "artists": [
+						{
+							"id": "list",
+							"name": "List",
+							"time": "12:40",
+							"duration": 40
+						}, 
+						{
+							"id": "adept",
+							"name": "Adept",
+							"time": "14:30",
+							"duration": 45
+						},
+						{
+							"id": "dieorsons",
+							"name": "Die Orsons",
+							"time": "16:30",
+							"duration": 45
+						},
+						{
+							"id": "fridagold",
+							"name": "Frida Gold",
+							"time": "19:00",
+							"duration": 50
+						},
+						{
+							"id": "frittenbude",
+							"name": "Frittenbude",
+							"time": "21:40",
+							"duration": 60
+						},
+						{
+							"id": "emilbulls",
+							"name": "Emil Bulls",
+							"time": "00:30",
+							"duration": 60
+						}
+                    ]
+                },
+                {
+                    "id": "palast",
+                    "name": "Palastzelt",
+                    "artists": [
+						{
+							"id": "mangodip",
+							"name": "Mango Dip",
+							"time": "15:00",
+							"duration": 30
+						},
+						{
+							"id": "poetry2",
+							"name": "Poetry Slam Vorrunde II",
+							"time": "16:00",
+							"duration": 120
+						},
+						{
+							"id": "mrsgreenbird",
+							"name": "Mrs. Greenbird",
+							"time": "18:30",
+							"duration": 60
+						},
+						{
+							"id": "thetchik",
+							"name": "The T.C.H.I.K.",
+							"time": "20:00",
+							"duration": 45
+						},
+						{
+							"id": "illibilly",
+							"name": "Illibilly Hitec",
+							"time": "21:15",
+							"duration": 45
+						},
+						{
+							"id": "foreignbeggars",
+							"name": "Foreign Beggars",
+							"time": "22:30",
+							"duration": 60
+						},
+						{
+							"id": "captaincapa",
+							"name": "Captain Capa",
+							"time": "23:45",
+							"duration": 60
+						},
+						{
+							"id": "lexykpaul",
+							"name": "Lexy & K-Paul",
+							"time": "01:00",
+							"duration": 75
+						},
+						{
+							"id": "peerkusiv",
+							"name": "Peer Kusiv",
+							"time": "02:30",
+							"duration": 80
+						},
+						{
+							"id": "dummejungs",
+							"name": "Dumme Jungs",
+							"time": "04:00",
+							"duration": 60
+						}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sonntag 21.",
+            "date": "21.07.2013",
+            "stages": [
+                {
+                    "id": "fire",
+                    "name": "Fire",
+                    "artists": [
+						{
+							"id": "tonbandgeraet",
+							"name": "Tonbandgerät",
+							"time": "12:45",
+							"duration": 30
+						}, 
+						{
+							"id": "wearetheocean",
+							"name": "We Are The Ocean",
+							"time": "14:30",
+							"duration": 45
+						},
+						{
+							"id": "comebackkid",
+							"name": "Comeback Kid",
+							"time": "16:30",
+							"duration": 45
+						},
+						{
+							"id": "madsen",
+							"name": "Madsen",
+							"time": "18:30",
+							"duration": 70
+						},
+						{
+							"id": "totenhosen",
+							"name": "Die Toten Hosen",
+							"time": "21:00",
+							"duration": 90
+						}
+                    ]
+                },
+                {
+                    "id": "water",
+                    "name": "Water",
+                    "artists": [
+						{
+							"id": "anchorshearts",
+							"name": "Anchors And Hearts",
+							"time": "12:00",
+							"duration": 30
+						},   
+						{
+							"id": "itchypoopzkid",
+							"name": "Itchy Poopzkid",
+							"time": "13:30",
+							"duration": 45
+						},
+						{
+							"id": "grossstadtgefluester",
+							"name": "Großstadtgeflüster",
+							"time": "15:30",
+							"duration": 45
+						},
+						{
+							"id": "blumentopf",
+							"name": "Blumentopf",
+							"time": "17:30",
+							"duration": 50
+						},
+						{
+							"id": "royalrepublic",
+							"name": "Royal Republic",
+							"time": "20:00",
+							"duration": 45
+						}
+                    ]
+                },
+                {
+                    "id": "palast",
+                    "name": "Palastzelt",
+                    "artists": [
+						{
+							"id": "luftpost",
+							"name": "Luftpost",
+							"time": "15:00",
+							"duration": 30
+						},
+						{
+							"id": "poetryfinal",
+							"name": "Poetry Slam Finale",
+							"time": "16:00",
+							"duration": 120
+						},
+						{
+							"id": "johannesoerding",
+							"name": "Johannes Oerding",
+							"time": "18:30",
+							"duration": 60
+						},
+						{
+							"id": "daspack",
+							"name": "Das Pack",
+							"time": "20:00",
+							"duration": 60
+						},
+						{
+							"id": "kellerkommando",
+							"name": "Kellerkommando",
+							"time": "21:30",
+							"duration": 60
+						},
+						{
+							"id": "fradiavolo",
+							"name": "Fra Diavolo",
+							"time": "22:30",
+							"duration": 90
+						},
+						{
+							"id": "spitspitclub",
+							"name": "Spit Spit Club",
+							"time": "00:00",
+							"duration": 60
+						}
+                    ]
+                }
+            ]
+        }
+
+    ]
+}
