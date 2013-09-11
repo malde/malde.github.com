@@ -52,7 +52,7 @@ div.frame {
 	background: url(../img/frame.png) no-repeat;
 }
 
-div.frame iframe {
+div.frame object {
 	border: 0;
 	height: 437px;
 	width: 648px;
