@@ -1,5 +1,5 @@
 $(document).ready(function(){	
-	rainbow();	
+	randomcolour();
 });
 
 var spectrum = ["#80F31F", "#A5DE0B", "#C7C101", "#E39E03", "#F6780F", "#FE5326", "#FB3244", "#ED1868", 
@@ -11,5 +11,10 @@ var rainbow = function() {
 	$('body').css('background-color', spectrum[index]);
     index = ++index % spectrum.length;
 
-	setTimeout(rainbow, 2000);
+	setTimeout(rainbow, 500);
+}
+
+var randomcolour = function() {	
+	index = Math.floor(Math.random()*spectrum.length + 1);
+	$('body').css('background-color', spectrum[index]);
 }
