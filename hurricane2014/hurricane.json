@@ -557,8 +557,8 @@
                             "duration": 50
                         },
                         {
-                            "id": "Passenger",
-                            "name": "passenger",
+                            "id": "passenger",
+                            "name": "Passenger",
                             "time": "16:15",
                             "duration": 55
                         },
