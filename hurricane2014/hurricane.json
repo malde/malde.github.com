@@ -1,0 +1,690 @@
+{
+    "name": "Hurricane 2014",
+
+    "days": [
+        {
+            "name": "Freitag 20.",
+            "date": "20.06.2014",
+            "stages": [
+                {
+                    "id": "green",
+                    "name": "Green",
+                    "artists": [
+                        {
+                            "id": "tdr",
+                            "name": "The Durango Riot",
+                            "time": "15:00",
+                            "duration": 30
+                        },
+                        {
+                            "id": "fu",
+                            "name": "Fucked Up",
+                            "time": "16:00",
+                            "duration": 30
+                        },
+                        {
+                            "id": "subways",
+                            "name": "The Subways",
+                            "time": "17:15",
+                            "duration": 45
+                        },
+                        {
+                            "id": "molly",
+                            "name": "Flogging Molly",
+                            "time": "18:30",
+                            "duration": 45
+                        },
+                        {
+                            "id": "elbow",
+                            "name": "Elbow",
+                            "time": "19:45",
+                            "duration": 60
+                        },
+                        {
+                            "id": "kooks",
+                            "name": "The Kooks",
+                            "time": "21:15",
+                            "duration": 75
+                        },
+                        {
+                            "id": "arcadefire",
+                            "name": "Arcade Fire",
+                            "time": "23:00",
+                            "duration": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "blue",
+                    "name": "Blue",
+                    "artists": [
+                        {
+                            "id": "drenge",
+                            "name": "Drenge",
+                            "time": "15:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "tnaf",
+                            "name": "The Naked And Famous",
+                            "time": "16:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "sounds",
+                            "name": "The Sounds",
+                            "time": "18:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "bbc",
+                            "name": "Bombay Bicycle Club",
+                            "time": "19:15",
+                            "duration": 60
+                        },
+                        {
+                            "id": "thees",
+                            "name": "Thees Uhlmann & Band",
+                            "time": "20:45",
+                            "duration": 60
+                        },
+                        {
+                            "id": "casper",
+                            "name": "Casper",
+                            "time": "22:30",
+                            "duration": 75
+                        },
+                        {
+                            "id": "macklemore",
+                            "name": "Macklemore & Ryan Lewis",
+                            "time": "00:30",
+                            "duration": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "red",
+                    "name": "Red",
+                    "artists": [
+                        {
+                            "id": "flynn",
+                            "name": "Johnny Flynn & The Sussex Wit",
+                            "time": "15:15",
+                            "duration": 30
+                        },
+                        {
+                            "id": "sahne",
+                            "name": "Feine Sahne Fischfilet",
+                            "time": "16:15",
+                            "duration": 30
+                        },
+                        {
+                            "id": "apologies",
+                            "name": "Apologies, I Have None",
+                            "time": "17:15",
+                            "duration": 45
+                        },
+                        {
+                            "id": "butter",
+                            "name": "We Butter The Bread With Butter",
+                            "time": "18:30",
+                            "duration": 45
+                        },
+                        {
+                            "id": "ymas",
+                            "name": "You Me At Six",
+                            "time": "19:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "panteon",
+                            "name": "Pantéon Rococó",
+                            "time": "21:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "wcar",
+                            "name": "We Came As Romans",
+                            "time": "22:15",
+                            "duration": 45
+                        },
+                        {
+                            "id": "badreligion",
+                            "name": "Bad Religion",
+                            "time": "23:30",
+                            "duration": 60
+                        },
+                        {
+                            "id": "bmth",
+                            "name": "Bring Me The Horizon",
+                            "time": "01:00",
+                            "duration": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "white",
+                    "name": "White",
+                    "artists": [
+                        {
+                            "id": "sharks",
+                            "name": "I Heart Sharks",
+                            "time": "15:00",
+                            "duration": 30
+                        },
+                        {
+                            "id": "ezra",
+                            "name": "George Ezra",
+                            "time": "16:00",
+                            "duration": 30
+                        },
+                        {
+                            "id": "chuck",
+                            "name": "Chuck Ragan",
+                            "time": "17:00",
+                            "duration": 30
+                        },
+                        {
+                            "id": "angus",
+                            "name": "Angus & Julia Stone",
+                            "time": "18:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "chvchres",
+                            "name": "Chvrches",
+                            "time": "19:15",
+                            "duration": 45
+                        },
+                        {
+                            "id": "egotronic",
+                            "name": "Egotronic",
+                            "time": "20:50",
+                            "duration": 70
+                        },
+                        {
+                            "id": "dumont",
+                            "name": "Duke Dumont",
+                            "time": "22:30",
+                            "duration": 75
+                        },
+                        {
+                            "id": "crookers",
+                            "name": "Crookers",
+                            "time": "00:30",
+                            "duration": 90
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Samstag 21.",
+            "date": "21.06.2014",
+            "stages": [
+                {
+                    "id": "green",
+                    "name": "Green",
+                    "artists": [
+                        {
+                            "id": "dep",
+                            "name": "Dillinger Escape Plan",
+                            "time": "13:00",
+                            "duration": 35
+                        },
+                        {
+                            "id": "skindred",
+                            "name": "Skindred",
+                            "time": "14:05",
+                            "duration": 40
+                        },
+                        {
+                            "id": "zebrahead",
+                            "name": "Zebrahead",
+                            "time": "15:15",
+                            "duration": 45
+                        },
+                        {
+                            "id": "donots",
+                            "name": "Donots",
+                            "time": "16:30",
+                            "duration": 60
+                        },
+                        {
+                            "id": "broilers",
+                            "name": "Broilers",
+                            "time": "18:00",
+                            "duration": 60
+                        },
+                        {
+                            "id": "dm",
+                            "name": "Dropkick Murphys",
+                            "time": "19:30",
+                            "duration": 75
+                        },
+                        {
+                            "id": "kraftklub",
+                            "name": "Kraftklub",
+                            "time": "21:15",
+                            "duration": 75
+                        },
+                        {
+                            "id": "volbeat",
+                            "name": "Volbeat",
+                            "time": "23:00",
+                            "duration": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "blue",
+                    "name": "Blue",
+                    "artists": [
+                        {
+                            "id": "station",
+                            "name": "Station 17",
+                            "time": "12:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "tkak",
+                            "name": "To Kill A King",
+                            "time": "13:35",
+                            "duration": 40
+                        },
+                        {
+                            "id": "atlantic",
+                            "name": "Twin Atlantic",
+                            "time": "14:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "sterne",
+                            "name": "Fünf Sterne Deluxe",
+                            "time": "16:00",
+                            "duration": 60
+                        },
+                        {
+                            "id": "bastille",
+                            "name": "Bastille",
+                            "time": "17:30",
+                            "duration": 60
+                        },
+                        {
+                            "id": "wombats",
+                            "name": "The Wombats",
+                            "time": "19:00",
+                            "duration": 60
+                        },
+                        {
+                            "id": "pixies",
+                            "name": "Pixies",
+                            "time": "20:45",
+                            "duration": 60
+                        },
+                        {
+                            "id": "interpol",
+                            "name": "Interpol",
+                            "time": "22:30",
+                            "duration": 75
+                        },
+                        {
+                            "id": "lily",
+                            "name": "Lily Allen",
+                            "time": "00:30",
+                            "duration": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "red",
+                    "name": "Red",
+                    "artists": [
+                        {
+                            "id": "findus",
+                            "name": "Findus",
+                            "time": "12:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "current",
+                            "name": "Current Swell",
+                            "time": "14:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "balthazar",
+                            "name": "Balthazar",
+                            "time": "15:15",
+                            "duration": 45
+                        },
+                        {
+                            "id": "augustines",
+                            "name": "Augustines",
+                            "time": "16:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "galaxy",
+                            "name": "The Asteroids Galaxy Tour",
+                            "time": "18:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "sue",
+                            "name": "Selah Sue",
+                            "time": "19:45",
+                            "duration": 60
+                        },
+                        {
+                            "id": "bosse",
+                            "name": "Bosse",
+                            "time": "20:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "odell",
+                            "name": "Tom Odell",
+                            "time": "22:00",
+                            "duration": 60
+                        },
+                        {
+                            "id": "lykke",
+                            "name": "Lykke Li",
+                            "time": "23:30",
+                            "duration": 60
+                        },
+                        {
+                            "id": "belle",
+                            "name": "Belle & Sebastian",
+                            "time": "01:00",
+                            "duration": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "white",
+                    "name": "White",
+                    "artists": [
+                        {
+                            "id": "sonic",
+                            "name": "Sonic. The Machine",
+                            "time": "12:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "razz",
+                            "name": "Razz",
+                            "time": "13:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "waves",
+                            "name": "Circa Waves",
+                            "time": "14:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "preatures",
+                            "name": "The Preatures",
+                            "time": "15:30",
+                            "duration": 45
+                        },
+                        {
+                            "id": "deaf",
+                            "name": "Deaf Havana",
+                            "time": "16:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "the1975",
+                            "name": "The 1975",
+                            "time": "18:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "foty",
+                            "name": "Family Of The Year",
+                            "time": "19:15",
+                            "duration": 45
+                        },
+                        {
+                            "id": "marek",
+                            "name": "Marek Hemmann",
+                            "time": "21:00",
+                            "duration": 75
+                        },
+                        {
+                            "id": "kavinsky",
+                            "name": "Kavinsky",
+                            "time": "22:50",
+                            "duration": 60
+                        },
+                        {
+                            "id": "moonbootica",
+                            "name": "Moonbootica",
+                            "time": "00:45",
+                            "duration": 75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sonntag 22.",
+            "date": "22.06.2014",
+            "stages": [
+                {
+                    "id": "green",
+                    "name": "Green",
+                    "artists": [
+                        {
+                            "id": "bots",
+                            "name": "The Bots",
+                            "time": "12:00",
+                            "duration": 30
+                        },
+                        {
+                            "id": "shoes",
+                            "name": "Blood Red Shoes",
+                            "time": "13:00",
+                            "duration": 30
+                        },
+                        {
+                            "id": "dispatch",
+                            "name": "Dispatch",
+                            "time": "14:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "jenny",
+                            "name": "Jennifer Rostock",
+                            "time": "15:15",
+                            "duration": 60
+                        },
+                        {
+                            "id": "lies",
+                            "name": "White Lies",
+                            "time": "16:45",
+                            "duration": 60
+                        },
+                        {
+                            "id": "franz",
+                            "name": "Franz Ferdinand",
+                            "time": "18:15",
+                            "duration": 75
+                        },
+                        {
+                            "id": "blackkeys",
+                            "name": "The Black Keys",
+                            "time": "20:00",
+                            "duration": 75
+                        },
+                        {
+                            "id": "seeed",
+                            "name": "Seeed",
+                            "time": "22:30",
+                            "duration": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "blue",
+                    "name": "Blue",
+                    "artists": [
+                        {
+                            "id": "samaris",
+                            "name": "Samaris",
+                            "time": "12:00",
+                            "duration": 30
+                        },
+                        {
+                            "id": "blaudzun",
+                            "name": "Blaudzun",
+                            "time": "12:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "london",
+                            "name": "London Grammar",
+                            "time": "13:30",
+                            "duration": 40
+                        },
+                        {
+                            "id": "metro",
+                            "name": "Metronomy",
+                            "time": "14:45",
+                            "duration": 50
+                        },
+                        {
+                            "id": "Passenger",
+                            "name": "passenger",
+                            "time": "16:15",
+                            "duration": 55
+                        },
+                        {
+                            "id": "bonaparte",
+                            "name": "Bonaparte",
+                            "time": "17:45",
+                            "duration": 60
+                        },
+                        {
+                            "id": "ed",
+                            "name": "Ed Sheeran",
+                            "time": "19:15",
+                            "duration": 75
+                        },
+                        {
+                            "id": "brote",
+                            "name": "Fettes Brot",
+                            "time": "21:00",
+                            "duration": 90
+                        }
+                    ]
+                },
+                {
+                    "id": "red",
+                    "name": "Red",
+                    "artists": [
+                        {
+                            "id": "reignwolf",
+                            "name": "Reignwolf",
+                            "time": "13:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "paris",
+                            "name": "We Invented Paris",
+                            "time": "14:15",
+                            "duration": 45
+                        },
+                        {
+                            "id": "midlake",
+                            "name": "Midlake",
+                            "time": "15:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "polica",
+                            "name": "Poliça",
+                            "time": "17:00",
+                            "duration": 45
+                        },
+                        {
+                            "id": "rod",
+                            "name": "Rodrigo Y Gabriela",
+                            "time": "18:45",
+                            "duration": 60
+                        },
+                        {
+                            "id": "toco",
+                            "name": "Tocotronic",
+                            "time": "20:15",
+                            "duration": 60
+                        },
+                        {
+                            "id": "blake",
+                            "name": "James Blake",
+                            "time": "22:00",
+                            "duration": 60
+                        }
+                    ]
+                },
+                {
+                    "id": "white",
+                    "name": "White",
+                    "artists": [
+                        {
+                            "id": "abby",
+                            "name": "Abby",
+                            "time": "12:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "royal",
+                            "name": "Royal Blood",
+                            "time": "13:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "hause",
+                            "name": "Dave Hause",
+                            "time": "14:30",
+                            "duration": 30
+                        },
+                        {
+                            "id": "yrs",
+                            "name": "Young Rebel Set",
+                            "time": "15:30",
+                            "duration": 45
+                        },
+                        {
+                            "id": "wiebusch",
+                            "name": "Marcus Wiebusch",
+                            "time": "16:45",
+                            "duration": 45
+                        },
+                        {
+                            "id": "bilderbuch",
+                            "name": "Bilderbuch",
+                            "time": "18:30",
+                            "duration": 60
+                        },
+                        {
+                            "id": "baauer",
+                            "name": "Baauer",
+                            "time": "20:00",
+                            "duration": 90
+                        },
+                        {
+                            "id": "moderat",
+                            "name": "Moderat",
+                            "time": "22:00",
+                            "duration": 90
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
