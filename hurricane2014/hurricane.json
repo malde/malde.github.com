@@ -226,6 +226,12 @@
                     "id": "green",
                     "name": "Green",
                     "artists": [
+						{
+							"id": "tonband",
+							"name": "Tonbandgerät",
+							"time": "12:00",
+							"duration": 30
+						},
                         {
                             "id": "dep",
                             "name": "Dillinger Escape Plan",
