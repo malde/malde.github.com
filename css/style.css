@@ -29,35 +29,34 @@ body {
 }
 
 #main {
-    width: 800px;
-    margin: 50px auto;
-    text-align: right;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
     opacity: 0;
-    -webkit-transition: all 1s ease-in 0s;
-    -moz-transition: all 1s ease-in 0s;
-    -ms-transition: all 1s ease-in 0s;
-    -o-transition: all 1s ease-in 0s;
-    transition: all 1s ease-in 0s;
+    -webkit-transition: opacity 1s ease-in 0s;
+    -moz-transition: opacity 1s ease-in 0s;
+    -ms-transition: opacity 1s ease-in 0s;
+    -o-transition: opacity 1s ease-in 0s;
+    transition: opacity 1s ease-in 0s;
 }
 
 #content {
-    width: 300px;
-    background: #111;
+    width: 280px;
     display: inline-block;
 }
 
-#content span {
+span {
     font-family: 'League Gothic', 'League Gothic Condensed', Arial;
     font-weight: normal;
     text-transform: uppercase;
     color: #2184C6;
     line-height: 1;
 }
-#content span.name {
+.name {
     color: #F5F8F3;
     line-height: .8;
 }
-#content span.title {
+.title {
     color: #B9D047;
     line-height: .9;
 }
@@ -68,12 +67,48 @@ a {
 }
 a:hover {
     color: #1b5a8c;
-    -webkit-transition: all 200ms ease-in 0s;
-    -moz-transition: all 200ms ease-in 0s;
-    -ms-transition: all 200ms ease-in 0s;
-    -o-transition: all 200ms ease-in 0s;
-    transition: all 200ms ease-in 0s;
+    -webkit-transition: all 100ms ease-out 0s;
+    -moz-transition: all 100ms ease-out 0s;
+    -ms-transition: all 100ms ease-out 0s;
+    -o-transition: all 100ms ease-out 0s;
+    transition: all 100ms ease-out 0s;
 }
 a:active {
     color: #174872;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #main {
+        margin: 40px auto;
+        width: 724px;
+        text-align: right;
+    }
+    #content {
+        width: 220px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #main {
+        margin: 50px auto;
+        width: 868px;
+        text-align: right;
+    }
+    #content {
+        width: 360px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #main {
+        margin: 60px auto;
+        width: 1000px;
+        text-align: right;
+    }
+    #content {
+        width: 400px;
+    }
 }
