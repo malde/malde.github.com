@@ -1,3 +1,16 @@
+.c1 {
+    color: #ff7473;
+}
+.c2 {
+    color: #ffc952;
+}
+.c3 {
+    color: #47b8e0;
+}
+.c4 {
+    color: #34314c;
+}
+
 .slabtexted .slabtext {
     display: -moz-inline-box;
     display: inline-block;
@@ -25,12 +38,13 @@ html, body {
 
 body {
     margin: 0 auto;
-    background: #111;
+    background: #fff;
+    color: lightgrey;
 }
 
 #main {
     width: 100%;
-    margin: 20px auto;
+    margin: 40px auto;
     text-align: center;
     opacity: 0;
     -webkit-transition: opacity 1s ease-in 0s;
@@ -41,7 +55,7 @@ body {
 }
 
 #content {
-    width: 280px;
+    width: 520px;
     display: inline-block;
 }
 
@@ -49,74 +63,32 @@ span {
     font-family: 'League Gothic', 'League Gothic Condensed', Arial;
     font-weight: normal;
     text-transform: uppercase;
-    color: #2184C6;
     line-height: 1;
 }
 .name {
-    color: #F5F8F3;
     line-height: .8;
 }
 .title {
-    color: #B9D047;
     line-height: .9;
 }
 
 a {
-    color: #2184C6;
     text-decoration: none;
 }
 a:hover {
-    color: #1b5a8c;
     -webkit-transition: all 100ms ease-out 0s;
     -moz-transition: all 100ms ease-out 0s;
     -ms-transition: all 100ms ease-out 0s;
     -o-transition: all 100ms ease-out 0s;
     transition: all 100ms ease-out 0s;
 }
-a:active {
-    color: #174872;
-}
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     #main {
-        margin: 40px auto;
-        width: 640px;
-        text-align: right;
+        margin: 20px auto;
     }
     #content {
-        width: 200px;
-    }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    #main {
-        margin: 50px auto;
-        text-align: right;
-    }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    #main {
-        margin: 60px auto;
-        width: 1000px;
-        text-align: right;
-    }
-    #content {
-        width: 230px;
-    }
-}
-
-/* Very arge devices (very large desktops, 1500px and up) */
-@media (min-width: 1500px) {
-    #main {
-        margin: 80px auto;
-        width: 1400px;
-        text-align: right;
-    }
-    #content {
-        width: 400px;
+        width: 300px;
     }
 }
