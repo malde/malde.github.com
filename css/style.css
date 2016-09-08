@@ -1,94 +1,20 @@
-.c1 {
-    color: #ff7473;
-}
-.c2 {
-    color: #ffc952;
-}
-.c3 {
-    color: #47b8e0;
-}
-.c4 {
-    color: #34314c;
-}
-
-.slabtexted .slabtext {
-    display: -moz-inline-box;
-    display: inline-block;
-    white-space: nowrap;
-}
-
-.slabtextinactive .slabtext {
-    display: inline;
-    white-space: normal;
-    font-size: 1em !important;
-    letter-spacing: inherit !important;
-    word-spacing: inherit !important;
-    *letter-spacing: 0 !important;
-    *word-spacing: 0 !important;
-}
-
-.slabtextdone .slabtext {
-    display: block;
-}
-
 html, body {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    margin: 0 auto;
-    background: #fff;
-    color: lightgrey;
-}
-
-#main {
-    width: 100%;
-    margin: 40px auto;
-    text-align: center;
-    opacity: 0;
-    -webkit-transition: opacity 1s ease-in 0s;
-    -moz-transition: opacity 1s ease-in 0s;
-    -ms-transition: opacity 1s ease-in 0s;
-    -o-transition: opacity 1s ease-in 0s;
-    transition: opacity 1s ease-in 0s;
-}
-
-#content {
-    width: 520px;
-    display: inline-block;
-}
-
-span {
-    font-family: 'League Gothic', 'League Gothic Condensed', Arial;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height: 1;
-}
-.name {
-    line-height: .8;
-}
-.title {
-    line-height: .9;
+	color: #a939ff;
+	background-color: #000000;
+	font-family: "Lucida Console", consolas, "courier new", monospace;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
+	color: orange;	
 }
 a:hover {
-    -webkit-transition: all 100ms ease-out 0s;
-    -moz-transition: all 100ms ease-out 0s;
-    -ms-transition: all 100ms ease-out 0s;
-    -o-transition: all 100ms ease-out 0s;
-    transition: all 100ms ease-out 0s;
+	color: blue;
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-    #main {
-        margin: 20px auto;
-    }
-    #content {
-        width: 300px;
-    }
+	body {
+		font-size:.7em;
+	}
 }
