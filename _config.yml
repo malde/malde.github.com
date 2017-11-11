@@ -1,1 +1,3 @@
 markdown: rdiscount
+sass:
+    style: compressed
