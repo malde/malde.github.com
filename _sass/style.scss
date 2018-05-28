@@ -1,41 +1,24 @@
-/*
-colorschemes by LOL colors:
-https://www.webdesignrankings.com/resources/lolcolors/
-*/
-$scheme1: #FFEEE4 #F17F42 #CE6D39 #000000;
-$scheme2: #30A9DE #EFDC05 #E53A40 #090707;
-$scheme3: #F6B352 #F68657 #383A3F #1F2124;
-$scheme4: #282c37 #9baec8 #d9e1e8 #2b90d9;
-$scheme5: #00dffc #008c9e #005f6b #343838;
-
-/* active color-scheme */
-$scheme: $scheme5;
-
-/* used colors */
-$color-bg: nth($scheme, 3);
-$color-text: nth($scheme, 1);
-$color-text-hover: nth($scheme, 2);
-
 /* typo */
-$main-font: AvenirNextCondensed-Bold, Impact, sans-serif;
+$main-font: 'Amatic SC', sans-serif;
+$color-text: white;
+$color-text-hover: darken($color-text, 20%);
+$text-shadow: 0 0 4px black;
 
 * {
     margin: 0;
     padding: 0;
+    font-size: 1.2em;
 }
 
 body {
-    background: $color-bg url(../img/joel-filipe-260016.jpg) no-repeat center center fixed;
-    background-blend-mode: soft-light;
+    background: url(../img/danny-strutt-509345-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     color: $color-text;
-    height: 100%;
 }
 
 a {
     font-family: $main-font;
     text-decoration: none;
-    text-transform: uppercase;
     color: $color-text;
     &:visited {
         color: $color-text;
@@ -43,77 +26,56 @@ a {
     &:hover, a:focus {
         color: $color-text-hover;
     }
+    padding: 0 0 20px 0;
+    text-shadow: $text-shadow;
 }
 
-header {
-    .name {
-        font-family: $main-font;
-        font-size: 16vw;
-        text-transform: uppercase;
-        text-align: center;
-        margin: -0.35em auto;
-    }
-}
-nav {
+.content {
+    border: 5px solid white;
+    margin: 70px;
+    padding: 40px 50px;
     position: absolute;
     top: 0;
-    z-index: 10;
-    width: 100%;
-    height: 38px;
-    background: $color-bg;
-    background: rgba($color-bg, .9);
-    border-bottom: 1px solid darken($color-bg, 5%);
-    font-size: 20px;
-    line-height: 40px;
-    padding: 0 30px;
-}
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
 
-nav {
-    ul {
-        li {
-            display: inline-block;
-            margin-right: 1rem;
+    .name {
+        font-weight: normal;
+        font-family: $main-font;
+        font-size: 3rem;
+        text-shadow: $text-shadow;
+        padding-bottom: 0.3em;
+    }
 
-            &:first-child {
-                a {
-                    background: url(../img/logo.gif) no-repeat 2px 2px;
-                    background-size: 22px;
-                }
-            }
-        }
+    .dot {
+        font-weight: bolder;
     }
 }
 
 .hidden {
+    display: none;
     visibility: hidden;
-    font-size: 12px; /* no optimal, but works */
 }
 
 /* Small devices (tablets, 600px and up) */
 @media (max-width: 600px) {
-    header {
+    .content {
+        margin: 30px 30px 50px 30px;
+        padding: 30px;
+
         .name {
-            font-size: 28vw;
+            font-size: 2.5rem;
+            padding-bottom: 1rem;
+        }
+
+        .dot {
+            display: none;
         }
     }
 
-    .hide-below-medium {
-        display: none;
-    }
-
-    nav {
-        position: relative;
-        z-index: 10;
-        background: none;
-        border: none;
-        font-size: 24px;
-        line-height: 40px;
-        padding: 20px 30px;
-
-        ul {
-            li {
-                display: block;
-            }
-        }
+    a {
+        display: block;
     }
 }
