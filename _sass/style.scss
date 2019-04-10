@@ -1,50 +1,61 @@
-$background: #fffaf7;
-$link: #ff3c3c;
-$time: #888;
-$selection: #fff888;
-$hr: #ddd;
+$background: #F7FFF7;
+$text: #1A535C;
+$link: #FF6B6B;
+$time: #4ECDC4;
+$selection: #FFE66D;
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: $background;
-    line-height: 1.3;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $background;
+  color: $text;
+  line-height: 1.3;
 }
+
 main {
-    max-width: 38rem;
-    padding: 1.5rem;
-    margin: auto;
+  max-width: 38rem;
+  padding: 1.5rem;
+  margin: auto;
 }
+
 header {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
+
 h1 {
-    margin-bottom: .5rem;
+  margin-bottom: .5rem;
 }
+
 time {
-    color: $time;
+  color: $time;
 }
+
 hr {
-    border: none;
-    height: 2px;
-    background-color: $hr;
-    margin: 2rem auto;
+  border: none;
+  height: 2px;
+  background-color: #ddd;
+  margin: 2rem auto;
 }
+
 footer {
-    margin-top: 2rem;
-    text-align: center;
+  margin-top: 2rem;
+  text-align: center;
 }
+
 a {
-    color: $link;
-    text-decoration: none;
-    outline: 0;
+  color: $link;
+  text-decoration: none;
+  outline: 0;
 }
+
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 ::selection {
-    background-color: $selection;
+  background-color: $selection;
 }
+
 .hidden {
-    visibility: hidden;
-    display: none;
+  visibility: hidden;
+  display: none;
 }

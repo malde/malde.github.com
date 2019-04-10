@@ -1,48 +1,52 @@
 <!doctype html>
 <html lang="de">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="description"
-          content="Malte Klemke, Code monkey. Comics, Space, Records, Books, Cinema. Popculture-junkie. Hamburg, Germany"/>
-    <meta name="keywords" content="Malte Klemke, java developer, web developer, Hamburg, Germany"/>
-    <meta name="viewport" content="width=device-width">
-    <title>{{ page.title }}</title>
-    <link rel="icon" href="favicon.ico"/>
-    <link rel="canonical" href="http://malde.me"/>
-    <noscript>
-        <link rel="stylesheet" type="text/css" href="/css/main.css"/>
-    </noscript>
+  <meta charset="utf-8"/>
+  <meta name="description"
+        content="Malte Klemke, Code monkey. Comics, Space, Records, Books, Cinema. Popculture-junkie. Hamburg, Germany"/>
+  <meta name="keywords" content="Malte Klemke, java developer, web developer, Hamburg, Germany"/>
+  <meta name="viewport" content="width=device-width">
+  <title>{{ page.title }}</title>
+  <link rel="icon" href="favicon.ico"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="canonical" href="http://malde.me"/>
+  <noscript>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+  </noscript>
 
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-18691952-2', 'malde.me');
-        ga('set', 'anonymizeIp', true);
-        ga('require', 'displayfeatures');
-        ga('send', 'pageview');
-    </script>
+    ga('create', 'UA-18691952-2', 'malde.me');
+    ga('set', 'anonymizeIp', true);
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
 </head>
 <body>
 <main>
-    {{ content }}
+  {{ content }}
 </main>
 <script type="text/javascript">
-    var style1 = document.createElement('link');
-    style1.rel = 'stylesheet';
-    style1.href = '/css/main.css';
-    style1.type = 'text/css';
-    var defer1 = document.getElementsByTagName('link')[0];
-    defer1.parentNode.insertBefore(style1, defer1);
+  var style1 = document.createElement('link');
+  style1.rel = 'stylesheet';
+  style1.href = '/css/main.css';
+  style1.type = 'text/css';
+  var defer1 = document.getElementsByTagName('link')[0];
+  defer1.parentNode.insertBefore(style1, defer1);
 </script>
 </body>
 </html>
