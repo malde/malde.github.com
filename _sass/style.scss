@@ -1,18 +1,20 @@
 :root {
-  --background: #F7FFF7;
-  --text: #1A535C;
-  --link: #FF6B6B;
-  --time: #4ECDC4;
-  --selection: #FFE66D;
+  --background: #fef6e4;
+  --headline: #001858;
+  --text: #172c66;
+  --link: #f582ae;
+  --time: #f582ae;
+  --selection: #fffffe;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1A535C;
-    --text: #F7FFF7;
-    --link: #FF6B6B;
-    --time: #4ECDC4;
-    --selection: #4ECDC4;
+    --background: #232946;
+    --headline: #fffffe;
+    --text: #b8c1ec;
+    --link: #eebbc3;
+    --time: #eebbc3;
+    --selection: #d4939d;
   }
   img {
     opacity: .75;
@@ -42,6 +44,7 @@ header {
 }
 
 h1 {
+  color: var(--headline);
   margin-bottom: .5rem;
 }
 
