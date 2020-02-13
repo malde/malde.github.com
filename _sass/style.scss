@@ -1,6 +1,7 @@
 :root {
   --background: #fef6e4;
   --headline: #001858;
+  --headline-bg: url("../namelight.png");
   --text: #172c66;
   --link: #f582ae;
   --time: #f582ae;
@@ -11,6 +12,7 @@
   :root {
     --background: #232946;
     --headline: #fffffe;
+    --headline-bg: url("../namedark.png");
     --text: #b8c1ec;
     --link: #eebbc3;
     --time: #eebbc3;
@@ -44,8 +46,16 @@ header {
 }
 
 h1 {
-  color: var(--headline);
+  color: transparent;
+  letter-spacing: .15rem;
   margin-bottom: .5rem;
+  background-image: var(--headline-bg);
+  background-repeat: no-repeat;
+  background-position: left;
+
+  &::selection {
+    color: var(--headline);
+  }
 }
 
 time {
