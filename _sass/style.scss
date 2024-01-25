@@ -1,30 +1,28 @@
 :root {
-  --background: #fef6e4;
-  --headline: #001858;
-  --headline-bg: url(../namelight.png);
-  --text: #172c66;
-  --link: #f582ae;
-  --time: #f582ae;
-  --selection: #fffffe;
+  --background: #eee;
+  --text: #111;
+  --link: #11111190;
+  --time: #11111190;
+  --selection: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #232946;
-    --headline: #fffffe;
-    --headline-bg: url(../namedark.png);
-    --text: #b8c1ec;
-    --link: #eebbc3;
-    --time: #eebbc3;
-    --selection: #d4939d;
+    --background: #111;
+    --text: #eee;
+    --link: #eeeeee90;
+    --time: #eeeeee90;
+    --selection: #000;
   }
-  img {
-    opacity: .75;
-    transition: opacity .5s ease-in-out;
-  }
-  img:hover {
-    opacity: 1;
-  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,500;1,500&display=swap');
+
+.vollkorn {
+  font-family: "Vollkorn", Palatino, serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 body {
@@ -45,29 +43,32 @@ header {
   margin-bottom: 1.5rem;
 }
 
-h1 {
-  color: transparent;
-  letter-spacing: .15rem;
-  margin-bottom: .5rem;
-  background-image: var(--headline-bg);
-  background-repeat: no-repeat;
-  background-position: left;
+.nickname {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 2rem;
+  font-size: 4rem;
+  line-height: 3rem;
+  display: block;
+}
 
-  &::selection {
-    color: var(--headline);
-  }
+h1, .prefix {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1.37rem;
+  line-height: 1rem;
+  display: inline;
+}
+
+p {
+  text-align: justify;
 }
 
 time {
   color: var(--time);
   display: block;
-}
-
-hr {
-  border: none;
-  height: 2px;
-  background-color: #ddd;
-  margin: 2rem auto;
 }
 
 footer {
