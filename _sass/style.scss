@@ -1,19 +1,11 @@
 :root {
-  --background: #eee;
-  --text: #111;
-  --link: #11111190;
-  --time: #11111190;
-  --selection: #fff;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #111;
-    --text: #eee;
-    --link: #eeeeee90;
-    --time: #eeeeee90;
-    --selection: #000;
-  }
+  --background: #061603;
+  --text: #eee;
+  --text-shadow: #f0f;
+  --name: #00d1fa;
+  --link: #eeeeee90;
+  --time: #eeeeee90;
+  --selection: #000;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,500;1,500&display=swap');
@@ -28,6 +20,7 @@
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background-color: var(--background);
+  background-image: url(/images/background.webp);
   color: var(--text);
   line-height: 1.6;
   -webkit-tap-highlight-color: var(--selection);
@@ -41,6 +34,20 @@ main {
 
 header {
   margin-bottom: 1.5rem;
+
+  div {
+    display: inline-block;
+  }
+
+  img {
+    width: 78px;
+    height: 78px;
+    float: left;
+    border-radius: 50%;
+    border: 5px solid var(--name);
+    margin-right: 1rem;
+    box-shadow: 2px 2px var(--text-shadow);
+  }
 }
 
 .nickname {
@@ -50,6 +57,8 @@ header {
   font-size: 4rem;
   line-height: 3rem;
   display: block;
+  color: var(--name);
+  text-shadow: 2px 2px var(--text-shadow);
 }
 
 h1, .prefix {
