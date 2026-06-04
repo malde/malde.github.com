@@ -1,0 +1,19 @@
+baseURL = 'https://malde.me/'
+locale = 'de'
+title = 'Malte Klemke'
+theme = 'malde'
+
+disableKinds = ['taxonomy', 'term', 'section', 'RSS', 'sitemap', 'robotsTXT', '404']
+
+[outputs]
+  home = ['HTML']
+
+[minify]
+  minifyOutput = true
+
+[build]
+  writeStats = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

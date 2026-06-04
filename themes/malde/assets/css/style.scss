@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght,BNCE,INFM@0,300..800,-40,80;1,300..800,-40,80&display=swap');
+
 :root {
   --background: #061603;
   --text: #eee;
@@ -8,19 +10,23 @@
   --selection: #000;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,500;1,500&display=swap');
-
-.vollkorn {
-  font-family: "Vollkorn", Palatino, serif;
+.shantell-sans-head {
+  font-family: "Shantell Sans", cursive;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
+  font-variation-settings: "BNCE" -30, "INFM" 60, "SPAC" 0;
 }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-variation-settings: "BNCE" 20, "INFM" 50, "SPAC" 0;
   background-color: var(--background);
-  background-image: url(/images/background.webp);
+  background-image: url(https://malde.me/images/background.webp);
   color: var(--text);
   line-height: 1.6;
   -webkit-tap-highlight-color: var(--selection);
@@ -34,20 +40,20 @@ main {
 
 header {
   margin-bottom: 1.5rem;
+}
 
-  div {
-    display: inline-block;
-  }
+header div {
+  display: inline-block;
+}
 
-  img {
-    width: 78px;
-    height: 78px;
-    float: left;
-    border-radius: 50%;
-    border: 5px solid var(--name);
-    margin-right: 1rem;
-    box-shadow: 2px 2px var(--text-shadow);
-  }
+header img {
+  width: 78px;
+  height: 78px;
+  float: left;
+  border-radius: 50%;
+  border: 5px solid var(--name);
+  margin-right: 1rem;
+  box-shadow: 2px 2px var(--text-shadow);
 }
 
 .nickname {
@@ -55,7 +61,7 @@ header {
   padding-bottom: 0;
   padding-top: 2rem;
   font-size: 4rem;
-  line-height: 3rem;
+  line-height: 3.5rem;
   display: block;
   color: var(--name);
   text-shadow: 2px 2px var(--text-shadow);
@@ -66,7 +72,7 @@ h1, .prefix {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 1.37rem;
+  font-size: 1.34rem;
   line-height: 1rem;
   display: inline;
 }
